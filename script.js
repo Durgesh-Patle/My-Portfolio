@@ -38,10 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Sticky header
         header.classList.toggle('sticky', scrollPosition > 100);
-
-        // Remove toggle icon and collapse navbar when a link is clicked
-        menuIcon.classList.remove('bx-x');
-        navbar.classList.remove('active');
     });
 
     // Collapse navbar on link click
